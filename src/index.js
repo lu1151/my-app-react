@@ -14,11 +14,11 @@ function BookList() {
 
 const Book = () => {
     const title = "Harry Potter and the Order of the Phoenix";
-    const author = "J.K. ROWLING";
+    const author = "J.K. Rowling";
     return (<article className="book">
         <img src="https://m.media-amazon.com/images/I/81T1F3Dv0YL._SX140_.jpg" alt="" />
         <h3>{title}</h3>
-        By <span>{author}</span>
+        By <span>{author.toLowerCase()}</span>
         <p>{}</p>
     </article>)
 }
